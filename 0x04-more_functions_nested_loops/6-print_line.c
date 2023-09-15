@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_line - draws a straight line in the terminal
  * @n: the integer parameter
@@ -14,3 +14,18 @@ n--;
 }
 _putchar('\n');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
