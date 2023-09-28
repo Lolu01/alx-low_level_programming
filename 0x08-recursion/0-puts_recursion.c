@@ -2,9 +2,9 @@
 /**
  *  _puts_recursion - function like puts();
  *  @s: input
- *  Return: Always 8 (success)
+ *  Return: Always 8 (Success)
  */
-viod _puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
