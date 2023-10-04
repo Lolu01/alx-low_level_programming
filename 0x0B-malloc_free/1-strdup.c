@@ -18,3 +18,6 @@ if (t == NULL)
 return (NULL);
 for (; i < len; i++)
 t[i] = str[i];
+t[len] = '\0';
+return (t);
+}
