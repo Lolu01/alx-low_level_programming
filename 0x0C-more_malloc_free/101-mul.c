@@ -18,7 +18,6 @@ bool valid_num(char *str)
 	return (true);
 }
 
-
 /**
  * main - multiplies two postive numbers
  * @argc: args count
@@ -27,6 +26,7 @@ bool valid_num(char *str)
  */
 
 int main(int argc, char *argv[])
+
 {
 	char *num1_str;
 	char *num2_str;
@@ -53,4 +53,5 @@ int main(int argc, char *argv[])
 	printf("%lu\n", res);
 
 	return (0);
+
 }
