@@ -53,5 +53,4 @@ int main(int argc, char *argv[])
 	printf("%lu\n", res);
 
 	return (0);
-
 }
