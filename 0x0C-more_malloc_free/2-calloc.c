@@ -17,4 +17,4 @@ if (c == NULL)
 return (NULL);
 memset(c, 0, size * nmemb);
 return (c);
-}}
+}
