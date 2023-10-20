@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -5,6 +6,7 @@
  * @head: list_t to be freed
  * Return: void
  */
+
 void free_list(list_t *head)
 {
 list_t *prev = NULL;
@@ -14,4 +16,5 @@ prev = head;
 head = head->next;
 free(prev->str);
 free(prev);
+}
 }
