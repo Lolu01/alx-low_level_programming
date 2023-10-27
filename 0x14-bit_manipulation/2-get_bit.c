@@ -11,6 +11,6 @@ int get_bit(unsigned long int n, unsigned int index)
 int compute = 1 << index, check;
 if (index > 63)
 return (-1);
-check =compute & n;
+check = compute & n;
 return ((check >> index) & 1);
 }
